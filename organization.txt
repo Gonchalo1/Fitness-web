@@ -1,0 +1,16 @@
+FRONT-END
+Organization:
+We going to develop with React, Boostrap and any librarie.
+
+Design:
+UI:
+https://mirfitness.com.ar/
+
+UX:
+https://pmteam.es/
+
+Only we have to copy the colors, tipografies, images, etc.
+
+
+Sections:
+We have to talk with the client.

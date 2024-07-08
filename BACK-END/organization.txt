@@ -1,0 +1,16 @@
+BACK-END
+Organization:
+We going to develop with express, JWT, Sequelize and another thing that we have to define.
+
+
+Database:
+Postgres
+    Tables:
+        Users: id, name, email, phone, age, ...
+        Products: id, name, category, ...
+
+Express:
+    1.User autentication and security.
+    2.Control of routes.
+    3.Hashing of passwords.
+    
