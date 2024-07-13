@@ -18,6 +18,8 @@ import Login from './sections/loginRegister/login';
 import Register from './sections/loginRegister/register';
 import Profile from './sections/profile/profile';
 import Contact from './sections/contact/contact';
+import Footer from './sections/footer/footer';
+import Nav from './sections/nav/nav';
 
 
 
@@ -25,7 +27,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        
+        <Nav/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/client" element={<Client />} />
@@ -40,6 +42,7 @@ function App() {
           <Route path="/profile" element={<Profile />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        <Footer/>
       </div>
     </Router>
   );
