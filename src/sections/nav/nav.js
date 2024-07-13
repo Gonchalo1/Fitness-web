@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../../App.css';
 import { Link } from 'react-router-dom';
+import Icon from '../images/icon.webp';
 
 function Nav() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -16,7 +17,9 @@ function Nav() {
           <i className="bi bi-list"></i>
         </div>
         <div className="icon">
-          <img src="ruta_del_icono" alt="icono" />
+          <Link to='/'>
+          <img src={Icon} alt='icon'/>
+          </Link>
         </div>
         <ul className={`navigation-items ${menuOpen ? 'open' : ''}`}>
           <li><Link to="/products">Productos</Link></li>
