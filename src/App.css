@@ -287,12 +287,14 @@
 .instagram-icon-container {
   display: inline-block;
   background-color: #B4416E;
+  margin-left: 10px;
   padding: 5px 10px;
   border-radius: 10%;
 }
 
 .instagram-icon-container a i {
   font-size: 20px;
+  margin: 5px;
   color: #fff;
   transition: color 0.3s;
 }
@@ -345,5 +347,151 @@
 
   .logo-container {
       text-align: center;
+  }
+}
+/* Estilos generales */
+.logo-container {
+  text-align: center;
+}
+
+.principal-div {
+  text-align: center;
+}
+
+.login-register-container {
+  margin-top: 40px;
+  border-top: 2px solid #EDEDED;
+  margin-bottom: 25px;
+}
+
+.account-title {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 50px;
+  font-size: 50px;
+  font-weight: bold;
+  color: #333;
+}
+
+.account-sub-title {
+  font-size: 15px;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.link {
+  text-decoration: none;
+  color: #B4419B;
+}
+
+.link:hover {
+  color: #FED3E6;
+  text-decoration: underline;
+}
+
+.form-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.login-container,
+.register-container {
+  flex: 1;
+  padding: 80px; /* Ajusta el padding aquí */
+  border: 2px solid #EDEDED;
+  margin: 15px;
+  
+  text-align: start;
+}
+
+.form-title {
+  text-align: center !important;
+  margin-bottom: 20px;
+  font-size: 23px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color:  #a6a6a6;
+}
+
+.form-group input[type="email"],
+.form-group input[type="password"],
+.form-group input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%; /* Esto hace que el checkbox sea redondeado */
+  border: 1px solid #ced4da; /* Añade un borde alrededor del checkbox */
+  appearance: none; /* Elimina el estilo por defecto del navegador */
+  -webkit-appearance: none; /* Para navegadores webkit */
+  outline: none; /* Elimina el borde del enfoque */
+  cursor: pointer; /* Cambia el cursor a un puntero cuando pasa sobre el checkbox */
+}
+
+input[type="checkbox"]:checked {
+  background-color: #252525; /* Color de fondo cuando está seleccionado */
+  border: 1px solid #252525; /* Borde cuando está seleccionado */
+}
+
+input[type="checkbox"]:hover {
+  border: 1px solid #007bff; /* Borde cuando el ratón pasa sobre el checkbox */
+}
+
+.form-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #FED3E6;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.form-button:hover {
+  background-color: #252525;
+  color: #fff;
+}
+
+.form-link {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.form-link a {
+  color: #333;
+  text-decoration: none;
+}
+
+.form-link a:hover {
+  text-decoration: underline;
+  color: #FED3E6;
+}
+/* Media query para dispositivos móviles */
+@media (max-width: 768px) {
+  .form-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .login-container,
+  .register-container {
+    width: 100%;
+    margin: 10px 0;
+    padding: 20px; /* Ajusta el padding según sea necesario para dispositivos móviles */
   }
 }

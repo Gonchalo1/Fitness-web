@@ -14,12 +14,11 @@ import ProductItSelf from './sections/products/productInSelf/productItSelf';
 import PaymentForm from './sections/products/paymentForm/paymentForm';
 import Plans from './sections/plans/plans'; 
 import PlanItSelf from './sections/plans/planItSelf/planItSelf';
-import Login from './sections/loginRegister/login';
-import Register from './sections/loginRegister/register';
 import Profile from './sections/profile/profile';
 import Contact from './sections/contact/contact';
 import Footer from './sections/footer/footer';
 import Nav from './sections/nav/nav';
+import LoginRegister from './sections/loginRegister/login';
 
 
 
@@ -37,8 +36,8 @@ function App() {
           <Route path="/paymentForm" element={<PaymentForm />} />
           <Route path="/plans" element={<Plans />} />
           <Route path="/planItSelf" element={<PlanItSelf />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} />
+          <Route path="/loginRegister" element={<LoginRegister />} />
+          
           <Route path="/profile" element={<Profile />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>

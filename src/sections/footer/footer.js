@@ -20,25 +20,21 @@ function Footer() {
                         </Link>
                     </li>
                     <li>
-                        <Link to="/miembros">
+                        <Link to="/">
                             <span>¿Donde Encontrarme?</span>
                         </Link>
                     </li>
                     <li>
-                        <Link to="/precio">
+                        <Link to="/">
                             <span>Distribución</span>
                         </Link>
                     </li>
                     <li>
-                        <Link to="/noticias">
+                        <Link to="/">
                             <span>Contacto</span>
                         </Link>
                     </li>
-                    <li>
-                        <Link to="/contacto">
-                            <span>Contacto</span>
-                        </Link>
-                    </li>
+                    
                 </ul>
             </div>
             <div className="footer-secciones">
@@ -72,41 +68,32 @@ function Footer() {
                 </ul>
             </div>
             <div className="footer-secciones">
-                <p>Secciones</p>
+                <p>Planificaciones</p>
                 <ul>
                     <li>
                         <Link to="/">
-                            <span>Home</span>
+                            <span>Presenciales</span>
                         </Link>
                     </li>
                     <li>
-                        <Link to="/miembros">
-                            <span>Miembros</span>
+                        <Link to="/">
+                            <span>A distancia</span>
                         </Link>
                     </li>
+                    
                     <li>
-                        <Link to="/precio">
-                            <span>Precio</span>
+                        <Link to="/">
+                            <span>Grupo Funcional</span>
                         </Link>
                     </li>
-                    <li>
-                        <Link to="/noticias">
-                            <span>Noticias</span>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to="/contacto">
-                            <span>Contacto</span>
-                        </Link>
-                    </li>
+                    
                 </ul>
             </div>
             <div className="footer-creado-por">
                 <span>
                     Creado por Gonzalo Calderón: 
-                    <a href="https://instagram.com/_gonchalo_" target="_blank" rel="noopener noreferrer"> _gonchalo_ </a>
                     <div className="instagram-icon-container">
-                        <a href="https://www.instagram.com/melina.gomezl/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.instagram.com/_gonchalo_/" target="_blank" rel="noopener noreferrer">
                             <i className="bi bi-instagram"></i>
                         </a>
                     </div>

@@ -82,7 +82,7 @@ function Nav() {
         </ul>
         <div className="extra-items">
           <Link to="/noHayLink(Creo)" className="hidden-tablet-mobile"><i className="bi bi-search"></i></Link>
-          <Link to="/login" className="hidden-tablet-mobile"><i className="bi bi-person"></i></Link>
+          <Link to="/loginRegister" className="hidden-tablet-mobile"><i className="bi bi-person"></i></Link>
           <Link to="/NoHayLink(Creo)"><i className="bi bi-bag"></i></Link>
         </div>
       </div>

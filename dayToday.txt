@@ -6,5 +6,8 @@ I'm building the base of the web.
 Gonzalo day 2:
 Building the folders and addind libraries like boostrap and react-router-dom.
 
-Gonzalo da3:
+Gonzalo day3:
 Finishing wih folders and first steps with nav.
+
+Gonzalo day4:
+Keep going with Nav and good steps with the footer.
