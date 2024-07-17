@@ -63,9 +63,9 @@ function Contact() {
     <br/>
     <input className='email-contact' placeholder='Email'></input>
     <br/>
-    <label>Tema en cuestión</label>
+    <label>Tema</label>
     <br/>
-    <input className='subject-contact' placeholder='Tema'></input>
+    <input className='subject-contact' placeholder='Mensaje'></input>
     <br/>
     <label>Mensaje</label>
     <br/>

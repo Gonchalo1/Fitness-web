@@ -11,3 +11,11 @@ Finishing wih folders and first steps with nav.
 
 Gonzalo day4:
 Keep going with Nav and good steps with the footer.
+
+Gonzalo day5:
+Now im working in the contact section, maybe tomorrow I will finish that section.
+I have to solve the problem with the message to be sent regarding the width issue 
+because the text just keeps running and doesn't wrap down. Then, I have to change 
+colors, fonts, and a few other details, and finish making it responsive. Also, I 
+need to address the issue with the subtitle on the home page that's conflicting
+ with a style I'm not sure about.
