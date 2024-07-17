@@ -18,7 +18,7 @@ import Profile from './sections/profile/profile';
 import Contact from './sections/contact/contact';
 import Footer from './sections/footer/footer';
 import Nav from './sections/nav/nav';
-import LoginRegister from './sections/loginRegister/login';
+import LoginRegister from './sections/loginRegister/loginRegister';
 
 
 

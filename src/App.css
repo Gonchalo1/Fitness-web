@@ -1,6 +1,6 @@
 /* FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 /* NAV */
 .Nav-major {
   background-color: #FED3E6; /* Color de fondo */
@@ -494,4 +494,146 @@ input[type="checkbox"]:hover {
     margin: 10px 0;
     padding: 20px; /* Ajusta el padding según sea necesario para dispositivos móviles */
   }
+}
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.principal-div-contact {
+  text-align: start;
+}
+
+.contact-container {
+  margin-top: 40px;
+  border-top: 2px solid #EDEDED;
+  margin-bottom: 25px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.account-title-contact {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 50px;
+  font-size: 50px;
+  font-weight: bold;
+  color: #333;
+}
+
+.account-sub-title-contact {
+  font-size: 15px;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-title-contact {
+  text-align: center !important;
+  margin-bottom: 20px;
+  font-size: 23px;
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+.elementor-divider {
+  width: 2px;
+  height: 50px; /* Ajusta la altura según sea necesario */
+  background-color: #EDEDED;
+  margin: 20px 0;
+}
+
+.article-contact {
+  text-align: center;
+  max-width: 75%;
+  margin: 50px;
+  font-size: 15px;
+}
+
+/* Estilos para la nueva sección de contacto */
+.contact-section2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Ambas columnas ocupan el mismo ancho */
+  gap: 10px;
+  background-color: #333;
+  padding: 70px;
+  color: #fff;
+}
+
+.element1,
+.element2 {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+
+.container-icon1, .container-icon2 {
+  border: 2px solid white;
+  padding: 10px 15px;
+  display: inline-flex; /* Asegura que los íconos y textos estén en línea */
+  margin-right: 10px; /* Espacio derecho entre los íconos y textos */
+  
+}
+
+.icon-text-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+
+/* Estilo específico para los íconos */
+.bi-envelope,
+.bi-telephone {
+  font-size: 20px;
+}
+.copyable-text {
+  user-select: all; /* Permite que el texto sea seleccionable/copiable por el usuario */
+  cursor: pointer;
+}
+.element1 span,
+.element2 span,
+.element1 h2,
+.element2 h2,
+.element1 label,
+.element2 label,
+.element1 input,
+.element2 input,
+.element1 button,
+.element2 button {
+  margin: 5px 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.element2{
+  margin-bottom: 20px;
+}
+
+.name-contact,
+.email-contact,
+.subject-contact,
+.message-contact,
+.submit-contact {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #FFFFFF;
+  
+}
+
+.message-contact {
+  height: 100px; /* Altura específica para el campo de mensaje */
+}
+
+.submit-contact {
+  color: #B4416E;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.submit-contact:hover {
+  background-color: #FED3E6;
 }
