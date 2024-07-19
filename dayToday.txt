@@ -18,4 +18,11 @@ I have to solve the problem with the message to be sent regarding the width issu
 because the text just keeps running and doesn't wrap down. Then, I have to change 
 colors, fonts, and a few other details, and finish making it responsive. Also, I 
 need to address the issue with the subtitle on the home page that's conflicting
- with a style I'm not sure about.
+with a style I'm not sure about.
+
+Gonzalo day6:
+I been working in the functionality of the coach section, tomorrow i will finish
+ in functionality, all the rest it's just styles and media queries.
+
+I make a images folder and i modificated footer styles with position relative 
+to don't superpositate.

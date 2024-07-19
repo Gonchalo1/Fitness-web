@@ -179,6 +179,9 @@
 
 /*Footer*/
 
+
+
+
 /* Estilos base */
 .footer {
   display: flex;
@@ -261,22 +264,17 @@
 }
 
 .footer-creado-por {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 95%;
   text-align: center;
   padding: 10px 0;
-  margin: -5px;
+  margin: 10px 0 0 0;
   color: #fff;
   border-top: 1px solid #fff;
+  width: 100%;
 }
 
 .footer-creado-por a {
   color: inherit;
   text-decoration: none;
-  
   transition: color 0.3s ease;
 }
 
@@ -336,11 +334,6 @@
       transform: translateX(0); /* Ajusta la posición en móviles más pequeños */
   }
 
-  .footer-creado-por {
-      width: 100%;
-      padding: 10px;
-  }
-
   .footer-creado-por a {
       font-size: 0.8em;
   }
@@ -349,6 +342,17 @@
       text-align: center;
   }
 }
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
 /* Estilos generales */
 .logo-container {
   text-align: center;
@@ -499,6 +503,8 @@ input[type="checkbox"]:hover {
 
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
+
+
 .principal-div-contact {
   text-align: start;
 }
@@ -520,14 +526,22 @@ input[type="checkbox"]:hover {
   font-size: 50px;
   font-weight: bold;
   color: #333;
+  transition: 2s;
+}
+
+.account-title-contact:hover {
+  font-size: 70px;
 }
 
 .account-sub-title-contact {
   font-size: 15px;
   color: #333;
   font-family: Arial, Helvetica, sans-serif;
+  text-align: center; /* Asegura que el texto esté centrado */
+  display: block; /* Asegura que ocupe toda la línea */
+  width: 100%; /* Asegura que ocupe todo el ancho del contenedor */
+  margin: 0 auto; /* Centra el texto horizontalmente */
 }
-
 .form-title-contact {
   text-align: center !important;
   margin-bottom: 20px;
@@ -548,7 +562,14 @@ input[type="checkbox"]:hover {
   max-width: 75%;
   margin: 50px;
   font-size: 15px;
+  transition: 3s;
 }
+
+
+.article-contact:hover {
+  font-size: 20px;
+}
+
 
 /* Estilos para la nueva sección de contacto */
 .contact-section2 {
@@ -591,6 +612,10 @@ input[type="checkbox"]:hover {
 .copyable-text {
   user-select: all; /* Permite que el texto sea seleccionable/copiable por el usuario */
   cursor: pointer;
+}
+
+.copyable-text:hover{
+  color: #E5B5C9;
 }
 .element1 span,
 .element2 span,
@@ -636,4 +661,59 @@ input[type="checkbox"]:hover {
 
 .submit-contact:hover {
   background-color: #FED3E6;
+}
+
+
+@media (max-width: 768px) {
+  .contact-section2 {
+    grid-template-columns: 1fr; /* Coloca las columnas en una sola fila */
+  }
+
+  .element1, .element2 {
+    width: 80%; /* Asegura que los elementos ocupen todo el ancho */
+  }
+  .copyable-text {
+   font-size: 13px;
+  }
+}
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.client-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 95%;
+  margin-top: 1%;
+  margin-bottom: 200px; /* Asegura espacio suficiente para el footer */
+  overflow: hidden; /* Oculta el desbordamiento */
+  position: relative; /* Asegura que los elementos hijos se posicionen correctamente */
+}
+
+.client-img {
+  width: 100%;
+  height: 95%; /* Mantiene la proporción de la imagen */
+  max-width: 100%; /* Asegura que la imagen no se extienda más allá del contenedor */
+  object-fit: cover; /* Asegura que la imagen cubra el contenedor sin distorsionarse */
+  transition: transform 0.1s ease-out; /* Suaviza el efecto de parallax */
+}
+
+.client-text {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  transition: transform 0.1s ease-out; /* Suaviza el efecto de deslizamiento */
+}
+
+.biografy {
+  text-align: center;
+  max-width: 80%; /* Ajusta según sea necesario */
+  margin: 0 auto;
+}
+
+.client-img2 {
+  width: 100%;
+  height: auto;
+  transition: transform 0.2s ease; /* Suaviza el efecto de zoom */
+  transform-origin: center; /* Asegúrate de que el zoom sea desde el centro */
 }

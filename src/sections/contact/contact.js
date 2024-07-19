@@ -26,7 +26,7 @@ function Contact() {
 
   return (
     <div className="principal-div-contact">
-      <h1 className="account-title-contact">MI CUENTA</h1>
+      <h1 className="account-title-contact">CONTACTO</h1>
       <span className="account-sub-title-contact">
         <Link to='/' className='link'>Home </Link>
          &gt; contacto  
@@ -61,7 +61,7 @@ function Contact() {
     <br/>
     <label>Email</label>
     <br/>
-    <input className='email-contact' placeholder='Email'></input>
+    <input type='email' className='email-contact' placeholder='Email'></input>
     <br/>
     <label>Tema</label>
     <br/>
@@ -69,7 +69,8 @@ function Contact() {
     <br/>
     <label>Mensaje</label>
     <br/>
-    <input className='message-contact' placeholder='...' style={{ width: '60%', height: '30%' }}></input>
+    <textarea className='message-contact' placeholder='...' style={{ width: '70%', height: '150px' }}></textarea>
+
 
     <br/>
     <button type="submit" className='submit-contact'>Enviar</button>
