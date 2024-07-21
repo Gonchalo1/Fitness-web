@@ -689,6 +689,7 @@ input[type="checkbox"]:hover {
   margin-bottom: 200px; /* Asegura espacio suficiente para el footer */
   overflow: hidden; /* Oculta el desbordamiento */
   position: relative; /* Asegura que los elementos hijos se posicionen correctamente */
+  font-family: 'Poppins', sans-serif;
 }
 
 .client-img {
@@ -700,15 +701,17 @@ input[type="checkbox"]:hover {
 }
 
 .client-text {
-  margin-top: 20px;
-  font-size: 1.5rem;
+  margin: 5%;
+  font-size: 3rem;
   transition: transform 0.1s ease-out; /* Suaviza el efecto de deslizamiento */
+  font-weight: bold;
 }
 
 .biografy {
   text-align: center;
   max-width: 80%; /* Ajusta según sea necesario */
   margin: 0 auto;
+  color: #B4416E;
 }
 
 .client-img2 {

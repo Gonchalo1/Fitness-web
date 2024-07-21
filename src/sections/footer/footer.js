@@ -8,29 +8,26 @@ function Footer() {
         <footer className="footer">
             <div className="footer-logo">
                 <div className='logo-container'>
+                    <Link to='/home'>
                     <img src={Logo} alt="Logo" />
+                    </Link>
                 </div>
             </div>
             <div className="footer-secciones">
                 <p>Sobre mi</p>
                 <ul>
                     <li>
-                        <Link to="/">
+                        <Link to="/client">
                             <span>¿Quien soy?</span>
                         </Link>
                     </li>
                     <li>
-                        <Link to="/">
-                            <span>¿Donde Encontrarme?</span>
+                        <Link to="/contact">
+                            <span>Entregas</span>
                         </Link>
                     </li>
                     <li>
-                        <Link to="/">
-                            <span>Distribución</span>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to="/">
+                        <Link to="/contact">
                             <span>Contacto</span>
                         </Link>
                     </li>
