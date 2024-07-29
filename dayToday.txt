@@ -26,3 +26,10 @@ I been working in the functionality of the coach section, tomorrow i will finish
 
 I make a images folder and i modificated footer styles with position relative 
 to don't superpositate.
+
+Gonzalo day7:
+Doing litle details and waiting for feedback.
+
+Gonzalo day8:
+Finally I finish coach section, only i need to do the template for planifications
+ and all that I have to kepp advancing is the back-end.

@@ -1,3 +1,4 @@
+
 /* FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
@@ -715,8 +716,38 @@ input[type="checkbox"]:hover {
 }
 
 .client-img2 {
-  width: 100%;
+  width: 80%;
   height: auto;
   transition: transform 0.2s ease; /* Suaviza el efecto de zoom */
   transform-origin: center; /* Asegúrate de que el zoom sea desde el centro */
+}
+.carousel-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.carousel-images img {
+  height: 400px; /* Establece la altura fija que desees */
+  object-fit: cover; /* Asegura que la imagen mantenga la proporción y rellene el contenedor */
+  width: auto; /* Ajusta el ancho automáticamente para mantener la proporción */
+}
+
+.carousel .carousel-inner {
+  width: 100%;
+  overflow: hidden;
+}
+
+
+@media (max-width: 768px) {
+  .carousel-images {
+    flex-direction: column; /* Cambia la dirección a columna en pantallas pequeñas */
+  }
+
+  .carousel-images img {
+    width: 100%; /* Ajusta el ancho a 100% en pantallas pequeñas */
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+  }
 }

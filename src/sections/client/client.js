@@ -2,13 +2,16 @@
 import '../../App.css';
 import Image from '../images/fondoMel.png';
 import Image2 from '../images/fondoMel2.jpeg';
+import Image3 from '../images/fondoMel13.jpeg';
+import CarouselClient from './carouselClient';
+import CarouselClient2 from './carouselClient2';
 
 function Client() {
 
   return (
     <div className="client-container">
       <img className='client-img' src={Image} alt="Coach" />
-      <p className="client-text">Mi recorrido</p>
+      <p className="client-text">Recorrido</p>
       
       <span className='biografy'> 
         ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
@@ -22,6 +25,14 @@ function Client() {
       </span>
       <p  className="client-text">Sobre mi y mi marca</p>
       <img  className='client-img2' src={Image2} alt="Enlarged Image"/>
+
+      <p  className="client-text">Equipo</p>
+      <CarouselClient/>
+
+      <img  className='client-img2' src={Image3} alt="Enlarged Image" />
+
+      <p  className="client-text">Melina</p>
+      <CarouselClient2/>
     </div>
   );
 }
